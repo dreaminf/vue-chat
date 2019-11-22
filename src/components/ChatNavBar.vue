@@ -20,7 +20,7 @@ export default {
     // 计算属性
     ...mapState(["user", "reconnect"])
     // user 映射this.user  为store.state.user
-    // ... 为对象展开运算符 将此对象混入到外部对象中
+    // ... 为对象展开运算符 将此对象混入 到外部对象中
   },
 
   methods: {
